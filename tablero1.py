@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt  
 
 # Nombre en la pestaña
 st.set_page_config(layout="centered", page_title="Tablero", page_icon=":)")
