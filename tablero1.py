@@ -23,7 +23,7 @@ with steps[0]:
         df = pd.read_csv(uploaded_file)
         st.dataframe(df)
 
-    camp_df=pd.read_csv("campanhas.csv",encoding="latin-1", sep=";")
+    camp_df=pd.read_csv("Campanhas.csv",encoding="latin-1", sep=";")
     camp=st.selectbox("Selecciona una campaña", (camp_df["ID_Campana"]), help="muestra las campañas existentes") #Seleccion Id de campaña CSV
     met_df = pd.read_csv('Metricas.csv', encoding='latin1', sep=';')
     m1, m2, m3 = st.columns([1,1,1]) #3 columnas destinadas para metricas
