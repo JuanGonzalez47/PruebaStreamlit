@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-
+import seaborn as sns
+import matplotlib.pyplot as plt 
 # Nombre en la pestaña
 st.set_page_config(layout="centered", page_title="Tablero", page_icon=":)")
 t1,t2 = st.columns([0.3,0.7])
